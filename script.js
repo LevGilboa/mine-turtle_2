@@ -42,7 +42,7 @@ const wheelCanvas = document.getElementById("wheel");
 const ctx = wheelCanvas.getContext("2d");
 const wheelOverlay = document.getElementById("wheel-overlay");
 const wheelResult = document.getElementById("wheel-result");
-let isSpinning = false;
+let isSpinning = true;
 let rotationDegree = 0;
 
 function drawWheel() {
